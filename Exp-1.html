@@ -1,61 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> 
   <title>Web Site Name</title>
-  <style>
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      margin-bottom: 20px;
-    }
-    th, td {
-      border: 1px solid #e8aa7c;
-      padding: 10px 16px;
-      text-align: center;
-    }
-    th {
-      background-color: #f6c08b;
-      font-size: 1.2em;
-    }
-    .sidebar {
-      vertical-align: top;
-      width: 150px;
-    }
-    .sidebar-list {
-      text-align: left;
-      padding-left: 10px;
-      font-size: 1.1em;
-      line-height: 2em;
-      border-right: 1px solid #e8aa7c;
-      height: 200px;
-    }
-    .main-content {
-      text-align: center;
-      font-size: 1.3em;
-      height: 200px;
-    }
-    .header-row {
-      background-color: #f6c08b;
-      font-weight: bold;
-    }
-    .menu-row td {
-      background-color: #ffe5cc;
-      font-size: 1.15em;
-    }
-  </style>
+  <link rel="stylesheet" href="./Experiments.css/Exp-1.css">
 </head>
 <body>
   <table>
     <tr class="header-row">
-      <th style="width:120px;font-size:100px;"> <img src="ABES.png"</th>
+      <th style="width:120px;font-size:100px;"> <img src="ABES.png"></th>
       <th colspan="5">Web Site Name</th>
     </tr>
     <tr class="menu-row">
-      <td>Home</td>
-      <td>Login</td>
-      <td>Registration</td>
-      <td>Catalogue</td>
-      <td>Cart</td>
+      <td><a href="Exp-1.html">Home</a></td>
+      <td><a href="Exp-2.html" target="contentframe">Login</a></td>
+      <td><a href="Exp-5.html" target="contentframe">Registration</a></td>
+      <td><a href="Exp-3.html" target="contentframe">Catalogue</a></td>
+      <td><a href="Exp-4.html" target="contentframe">Cart</a></td>
     </tr>
     <tr>
       <td class="sidebar-list sidebar" rowspan="2">
@@ -64,9 +24,10 @@
         EEE<br>
         CIVIL
       </td>
-      <td class="main-content" colspan="4" rowspan="2">
-               Description of the WebSite
+      <td class="main-content" colspan="99" rowspan="99">
+               <iframe name="contentframe"></iframe>
       </td>
+
     </tr>
   </table>
 </body>
