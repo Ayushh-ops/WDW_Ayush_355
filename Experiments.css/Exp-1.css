@@ -1,0 +1,45 @@
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #e8aa7c;
+      padding: 10px 16px;
+      text-align: center;
+    }
+    th {
+      background-color: #f6c08b;
+      font-size: 1.2em;
+    }
+    .sidebar {
+      vertical-align: top;
+      width: 150px;
+    }
+    .sidebar-list {
+      text-align: left;
+      padding-left: 10px;
+      font-size: 1.1em;
+      line-height: 2em;
+      border-right: 1px solid #e8aa7c;
+      height: 200px;
+    }
+    .main-content {
+      text-align: center;
+      font-size: 1.3em;
+      height: 200px;
+    }
+    .header-row {
+      background-color: #f6c08b;
+      font-weight: bold;
+    }
+    .menu-row td {
+      background-color: #ffe5cc;
+      font-size: 1.15em;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
